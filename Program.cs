@@ -13,6 +13,9 @@ namespace Class_rectangle
             Rectangle rec = new Rectangle(4.9f, 8.6f, "violet");
             Console.WriteLine(rec.Couleur);
 
+            rec.Perimetre();
+
+            Console.WriteLine("L'aire est : " + rec.Aire());
 
             Console.ReadKey();
         }
