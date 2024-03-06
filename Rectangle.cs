@@ -43,5 +43,13 @@ namespace Class_rectangle
       {
         return _longueur * _largeur;
       }
+
+      // Méthode qui affiche la couleur du rectangle
+      public void AfficheCouleur()
+      {
+        // ajout d'une condition terniare pour afficher la couleur ou pas si elle n'est pas renseignée
+        string str = _couleur!= null ? "la couleur est " + _couleur : "Aucune couleur existe dans ce rectangle";
+        Console.WriteLine(str);
+      }
   }
 }
