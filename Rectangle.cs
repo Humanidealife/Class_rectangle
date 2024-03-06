@@ -11,7 +11,7 @@ namespace Class_rectangle
     private float _largeur;
     private string _couleur;
 
-    // création des propiétés de _couleur
+    // création des propriétés de _couleur
     public string Couleur
     {
       get { return _couleur; }

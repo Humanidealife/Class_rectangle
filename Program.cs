@@ -17,6 +17,8 @@ namespace Class_rectangle
 
             Console.WriteLine("L'aire est : " + rec.Aire());
 
+            rec.AfficheCouleur();
+
             Console.ReadKey();
         }
     }
