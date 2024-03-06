@@ -37,5 +37,11 @@ namespace Class_rectangle
       {
         Console.WriteLine($"Le périmètre est : {(_longueur + _largeur)*2} " );
       }
+
+      //  Création dune Fonction qui renvoie l'aire du rectangle
+      public float Aire()
+      {
+        return _longueur * _largeur;
+      }
   }
 }
