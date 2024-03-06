@@ -32,5 +32,10 @@ namespace Class_rectangle
       this._couleur = Couleur;
     }
 
+    //  Création d'une Méthode pour affiche le périmètre dans la console
+    public void Perimetre()
+      {
+        Console.WriteLine($"Le périmètre est : {(_longueur + _largeur)*2} " );
+      }
   }
 }
