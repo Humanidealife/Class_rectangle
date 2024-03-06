@@ -8,5 +8,13 @@ namespace Class_rectangle
   {
     private float longueur;
     private float largeur;
+    private string _couleur;
+
+    // création des propiétés de _couleur
+    public string Couleur
+    {
+      get { return _couleur;}
+    }
+
   }
 }
